@@ -1,5 +1,3 @@
-nuevo monitor de wsp Evolution ram y demas
-
 #!/bin/bash
 set -o pipefail
 
@@ -13,9 +11,9 @@ CPU_THRESHOLD=90
 DISK_THRESHOLD=90
 
 EVOLUTION_URL="http://localhost:8080"
-EVOLUTION_APIKEY="1e2230e583819c6bc15589689bee4d05ed95717002bb76954d5e1c40b66cbe50"
-EVOLUTION_INSTANCE="zenith-oficial"
-WHATSAPP_STACK_DIR="$HOME/whatsapp-stack"
+EVOLUTION_APIKEY="evolution_api_key"
+EVOLUTION_INSTANCE="evolution_instance"
+WHATSAPP_STACK_DIR="$HOME/whatsapp-stack"  ###el path que corresponda
 
 # ─── ESTADO ───────────────────────────────────────────────────────────────────
 RAM_STATE="/tmp/ram_alert"
